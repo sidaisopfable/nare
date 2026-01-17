@@ -44,40 +44,30 @@ The framework combines insights from **Internal Family Systems (IFS)**, **Cognit
 
 ## 🚀 Quick Start
 
-### Option A: Claude API (Recommended)
+### One-Command Setup
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/nare.git
+git clone https://github.com/sidaisopfable/nare.git
 cd nare
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Set your API key
-export ANTHROPIC_API_KEY=sk-ant-xxxxx
-
-# Run
-streamlit run app.py
+# Run setup (installs everything + launches app)
+bash setup.sh
 ```
 
-### Option B: Ollama (100% Local, Free)
+That's it! The setup script will:
+- ✅ Install Python dependencies
+- ✅ Set up the RAG database
+- ✅ Launch the app in your browser
 
-```bash
-# Install Ollama (https://ollama.ai)
-brew install ollama  # macOS
+### First Run Options
 
-# Pull a model
-ollama pull llama3.1:8b
+When the app opens, you'll choose how to run it:
 
-# Start Ollama
-ollama serve
-
-# In another terminal
-pip install -r requirements.txt
-streamlit run app.py
-# Select "Ollama (Local)" in the app
-```
+| Option | What You Need | Privacy | Quality |
+|--------|---------------|---------|---------|
+| **Claude API** | Your API key ([get one here](https://console.anthropic.com/)) | Your Anthropic account | ⭐⭐⭐⭐⭐ |
+| **Ollama (Local)** | Ollama installed ([ollama.ai](https://ollama.ai)) | 100% on-device | ⭐⭐⭐ |
 
 ---
 
