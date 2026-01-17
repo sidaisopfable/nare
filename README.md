@@ -44,25 +44,16 @@ The framework combines insights from **Internal Family Systems (IFS)**, **Cognit
 
 ## 🚀 Quick Start
 
-### One-Command Setup
-
 ```bash
-# Clone the repo
-git clone https://github.com/sidaisopfable/nare.git
-cd nare
+# 1. Download and unzip from GitHub (green "Code" button → Download ZIP)
+# 2. Open terminal, navigate to the folder, and run:
 
-# Run setup (installs everything + launches app)
 bash setup.sh
 ```
 
-That's it! The setup script will:
-- ✅ Install Python dependencies
-- ✅ Set up the RAG database
-- ✅ Launch the app in your browser
+That's it! The setup script installs everything and launches the app in your browser.
 
-### First Run Options
-
-When the app opens, you'll choose how to run it:
+### Choose Your Backend
 
 | Option | What You Need | Privacy | Quality |
 |--------|---------------|---------|---------|
