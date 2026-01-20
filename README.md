@@ -5,7 +5,7 @@
 > *Nare* (pronounced "Narry" 🔊 — rhymes with Larry) = **Na**rrative **Re**framer
 
 <p align="center">
-  <img src="docs/screenshot-home.png" alt="Nare Home Screen" width="600">
+  <img src="docs/screenshots/0%20Homepage.png" alt="Nare Home Screen" width="700">
 </p>
 
 Nare helps Product Managers recognize self-sabotaging mental patterns and reframe the narratives that keep them stuck. Built with a privacy-first architecture and grounded in psychological research.
@@ -38,6 +38,10 @@ Every PM knows the feeling: you're stuck in a loop of self-doubt, perfectionism,
 | 🐕 **Golden Retriever** | Compulsive Pleaser | "I'll be rejected if I disappoint" |
 | 🐇 **Rabbit** | Restless Escapist | "This moment is unbearable" |
 
+<p align="center">
+  <img src="docs/screenshots/6%20Saboteurs.png" alt="The Five Saboteurs" width="700">
+</p>
+
 The framework combines insights from **Internal Family Systems (IFS)**, **Cognitive Behavioral Therapy (CBT)**, and **Acceptance & Commitment Therapy (ACT)** — mapped to memorable animal metaphors so you can catch yourself in the moment.
 
 ---
@@ -59,6 +63,32 @@ That's it! The setup script installs everything and launches the app in your bro
 |--------|---------------|---------|---------|
 | **Claude API** | Your API key ([get one here](https://console.anthropic.com/)) | Your Anthropic account | ⭐⭐⭐⭐⭐ |
 | **Ollama (Local)** | Ollama installed ([ollama.ai](https://ollama.ai)) | 100% on-device | ⭐⭐⭐ |
+
+<p align="center">
+  <img src="docs/screenshots/3%20Choose%20Model.png" alt="Choose Your Model" width="700">
+</p>
+
+---
+
+## 📸 How It Works
+
+### 1. Pick your situation
+
+<p align="center">
+  <img src="docs/screenshots/1%20Pick%20category.png" alt="Pick Category" width="700">
+</p>
+
+### 2. Describe what's going on
+
+<p align="center">
+  <img src="docs/screenshots/2%20Describe%20situation.png" alt="Describe Situation" width="700">
+</p>
+
+### 3. Get a grounded perspective
+
+<p align="center">
+  <img src="docs/screenshots/4%20Sample%20Response.png" alt="Sample Response" width="700">
+</p>
 
 ---
 
@@ -93,7 +123,11 @@ Your reflections are personal. Nare is designed so **we never see your data**:
 Nare includes a **37-entry golden dataset** and eval dashboard to measure response quality:
 
 <p align="center">
-  <img src="docs/screenshot-evals.png" alt="Eval Dashboard" width="600">
+  <img src="docs/screenshots/8%20Claude%20vs%20Ollama.png" alt="Claude vs Ollama Comparison" width="700">
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/9%20Metrics.png" alt="Eval Metrics" width="700">
 </p>
 
 | Metric | Claude Sonnet | Llama 3.1 8B |
@@ -103,6 +137,21 @@ Nare includes a **37-entry golden dataset** and eval dashboard to measure respon
 | **Recall** | 88% | 62% |
 
 Compare backends, run subset tests, and drill into individual results.
+
+---
+
+## 🧠 Psychological Foundation
+
+<p align="center">
+  <img src="docs/screenshots/7%20Psychological%20Foundation.png" alt="Psychological Foundation" width="700">
+</p>
+
+Nare's framework synthesizes evidence-based approaches:
+
+- **[Internal Family Systems (IFS)](https://ifs-institute.com/)** — Parts work, the Self
+- **[Cognitive Behavioral Therapy (CBT)](https://beckinstitute.org/)** — Cognitive distortions, reframing
+- **[Acceptance & Commitment Therapy (ACT)](https://contextualscience.org/act)** — Defusion, observing self
+- **[Compassion-Focused Therapy](https://www.compassionatemind.co.uk/)** — Self-compassion, inner critic
 
 ---
 
@@ -117,6 +166,8 @@ This project demonstrates production-ready GenAI patterns:
 | **Observability** | Request logging, audit trail, token/cost tracking |
 | **UX** | Streaming responses, regenerate, multi-turn conversation |
 | **Privacy** | BYOK model, local-first storage, data export |
+
+📚 **[Read the full GenAI Concepts Learned →](docs/GENAI_CONCEPTS_LEARNED.md)**
 
 ---
 
@@ -141,19 +192,6 @@ nare/
 
 ---
 
-## 🧠 Psychological Foundation
-
-Nare's framework synthesizes evidence-based approaches:
-
-- **[Internal Family Systems (IFS)](https://ifs-institute.com/)** — Parts work, the Self
-- **[Cognitive Behavioral Therapy (CBT)](https://beckinstitute.org/)** — Cognitive distortions, reframing
-- **[Acceptance & Commitment Therapy (ACT)](https://contextualscience.org/act)** — Defusion, observing self
-- **[Compassion-Focused Therapy](https://www.compassionatemind.co.uk/)** — Self-compassion, inner critic
-
-**⚠️ Disclaimer:** Nare is a self-reflection tool, not therapy. It cannot diagnose conditions or replace professional mental health support. If you're in crisis, please contact a professional or call 988 (US).
-
----
-
 ## 🛠️ Development
 
 ```bash
@@ -166,6 +204,12 @@ python -c "import app"
 # Run evals
 python eval.py
 ```
+
+---
+
+## ⚠️ Disclaimer
+
+Nare is a self-reflection tool, not therapy. It cannot diagnose conditions or replace professional mental health support. If you're in crisis, please contact a professional or call 988 (US).
 
 ---
 
